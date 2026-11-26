@@ -12,11 +12,15 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
+def power(a, b):
+    return a ** b
+
 OPERATIONS = {
     "+": add,
     "-": subtract,
     "*": multiply,
     "/": divide,
+    "**": power,
 }
 
 def main():
