@@ -15,12 +15,17 @@ def divide(a, b):
 def power(a, b):
     return a ** b
 
+def modulo(a, b):
+    return a % b
+
 OPERATIONS = {
     "+": add,
     "-": subtract,
     "*": multiply,
     "/": divide,
     "**": power,
+    "%": modulo,
+
 }
 
 def main():
